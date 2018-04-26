@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/webdemo.iml" filepath="$PROJECT_DIR$/webdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webdemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webdemo_main.iml" group="webdemo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webdemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webdemo_test.iml" group="webdemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web_main.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web_test.iml" group="web" />
     </modules>
   </component>
 </project>
