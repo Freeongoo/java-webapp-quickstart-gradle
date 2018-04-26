@@ -3,14 +3,17 @@ plugins {
     id 'org.akhikhl.gretty' version '1.4.2'
 }
 
+def props = new Properties()
+file("config.properties").withInputStream { props.load(it) }
+
 repositories {
     jcenter()
 }
 
 gretty {
-    httpPort = 8081
+    httpPort = Integer.valueOf(props.getProperty("port"))
+    contextPath = props.getProperty("context")
     integrationTestTask = 'test'
-    contextPath = '/my-context'
 }
 
 dependencies {

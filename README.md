@@ -1,6 +1,10 @@
 # How to use
 
-## Grandle task
+## Installation
+
+`cp config.properties.dist config.properties`
+
+## Gradle task
 
 `./gradlew appRun` - run web server and deploy
 `./gradlew build` - build with run unit test

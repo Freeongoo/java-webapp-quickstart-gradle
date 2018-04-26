@@ -31,8 +31,10 @@ public class HelloServletFunctionalTest {
     }
 
     @Test
-    public void sayHello() throws Exception {      
-        driver.get("http://localhost:8080/webdemo");
+    public void sayHello() throws Exception {
+        int port = Integer.valueOf(Config.getProperty("port"));
+        String context = Config.getProperty("context");
+        driver.get("http://localhost:" + port + "/" + context);
 
         driver.findElement(By.id("say-hello-text-input")).sendKeys("Dolly");
         driver.findElement(By.id("say-hello-button")).click();
