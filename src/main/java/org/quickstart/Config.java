@@ -1,4 +1,4 @@
-package org.gradle.demo;
+package org.quickstart;
 
 import java.io.*;
 import java.util.*;

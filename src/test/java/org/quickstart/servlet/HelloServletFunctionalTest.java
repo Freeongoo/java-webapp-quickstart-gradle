@@ -1,4 +1,4 @@
-package org.gradle.demo;
+package org.quickstart.servlet;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.After;
@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.quickstart.Config;
 
 import static org.junit.Assert.assertEquals;
 

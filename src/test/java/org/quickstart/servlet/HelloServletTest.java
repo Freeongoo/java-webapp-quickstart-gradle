@@ -1,9 +1,10 @@
-package org.gradle.demo;
+package org.quickstart.servlet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.quickstart.servlet.HelloServlet;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;

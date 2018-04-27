@@ -1,4 +1,4 @@
-package org.gradle.demo;
+package org.quickstart.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
